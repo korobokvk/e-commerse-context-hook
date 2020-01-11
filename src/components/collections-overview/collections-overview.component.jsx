@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import { createStructuredSelector } from 'reselect'
 
 import CollectionPreview from '../collection-preview/collection-preview.component'
 import CollectionsContext from '../../contexts/collections/collections.context'
