@@ -22,7 +22,6 @@ const CartProvider = ({ children }) => {
   const removeItem = (item) => setCartItems(removeItemFromCart(cartItems, item))
   const toggleHidden = () => setHidden(!hidden)
   const clearItemFromCart = (item) => setCartItems(filterItemFromCart(cartItems, item))
-  console.log(cartItems)
   useEffect(() => {
     setCartItemsCount(getCartItemsCount(cartItems))
     setCartTotal(setTotal(cartItems))
